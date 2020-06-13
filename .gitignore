@@ -50,5 +50,3 @@ tags
 *.pyc
 .coverage
 __pycache__
-
-.idea/
