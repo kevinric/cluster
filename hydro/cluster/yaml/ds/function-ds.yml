@@ -52,7 +52,7 @@ spec:
         - name: SCHED_IPS
           value: SCHED_IPS_DUMMY
         - name: THREAD_ID
-          value: "0"
+          value: "10"
         - name: ROLE
           value: executor
         - name: REPO_ORG
