@@ -34,7 +34,9 @@ spec:
       - name: memory-container
         image: hydroproject/anna
         imagePullPolicy: Always
-        env: 
+        env:
+        - name: PYTHONUNBUFFERED
+          value: "0"
         - name: SERVER_TYPE
           value: "memory"
         - name: ROUTING_IPS

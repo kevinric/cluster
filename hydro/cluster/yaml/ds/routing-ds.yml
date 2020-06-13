@@ -33,7 +33,9 @@ spec:
       containers:
       - name: routing-container
         image: hydroproject/anna
-        env: 
+        env:
+        - name: PYTHONUNBUFFERED
+          value: "0"
         - name: SERVER_TYPE
           value: r
         - name: MON_IPS
