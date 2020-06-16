@@ -45,8 +45,6 @@ spec:
         image: hydroproject/cloudburst
         imagePullPolicy: Always
         env:
-        - name: PYTHONUNBUFFERED
-          value: "0"
         - name: ROUTE_ADDR
           value: ROUTE_ADDR_DUMMY
         - name: MGMT_IP
@@ -76,8 +74,6 @@ spec:
         image: hydroproject/cloudburst
         imagePullPolicy: Always
         env:
-        - name: PYTHONUNBUFFERED
-          value: "0"
         - name: ROUTE_ADDR
           value: ROUTE_ADDR_DUMMY
         - name: MGMT_IP
@@ -107,8 +103,6 @@ spec:
             cpu: "2"
             memory: "2G"
         env:
-        - name: PYTHONUNBUFFERED
-          value: "0"
         - name: ROUTE_ADDR
           value: ROUTE_ADDR_DUMMY
         - name: MGMT_IP
@@ -138,8 +132,6 @@ spec:
             cpu: 1
             memory: "8G"
         env:
-        - name: PYTHONUNBUFFERED
-          value: "0"
         - name: ROUTE_ADDR
           value: ROUTE_ADDR_DUMMY
         - name: MGMT_IP
